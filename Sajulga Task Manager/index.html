@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Manager</title>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <main class="flex border">
+      <section class="w-1/4">
+        <button id="add-random-task-btn" class="button">ADD RANDOM TASK</button>
+        <button id="admit-task-btn" class="button">ADMIT TASK</button>
+
+        <h4 class="text-3xl font-bold">Task Queue</h4>
+        <div class="flex flex-wrap gap-2 p-2" id="tasks-queue-container"></div>
+      </section>
+      <section id="queues-container" class="flex-1 flex flex-col border">
+        <div class="">
+          <h5>High Priority Queue</h5>
+
+          <label>Queue List</label>
+          <div id="queue-1-list" class="list"></div>
+
+          <label> Duration</label>
+          <div id="queue-1-duration" class="duration"></div>
+        </div>
+        <div class="">
+          <h5>Regular Queue 2</h5>
+
+          <label>Queue List</label>
+          <div id="queue-2-list" class="list"></div>
+
+          <label> Duration</label>
+          <div id="queue-2-duration" class="duration"></div>
+        </div>
+        <div class="">
+          <h5>Regular Queue 3</h5>
+
+          <label>Queue List</label>
+          <div id="queue-3-list" class="list"></div>
+
+          <label> Duration</label>
+          <div id="queue-3-duration" class="duration"></div>
+        </div>
+        <div class="">
+          <h5>Regular Queue 4</h5>
+
+          <label>Queue List</label>
+          <div id="queue-4-list" class="list"></div>
+
+          <label> Duration</label>
+          <div id="queue-4-duration" class="duration"></div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

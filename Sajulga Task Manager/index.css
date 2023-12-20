@@ -1,0 +1,51 @@
+#queues-container > div {
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+#queues-container .list {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+  min-height: 4rem;
+  align-items: center;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 10px;
+}
+
+#queues-container .duration {
+  border: 1px solid gray;
+  padding: 10px;
+  background-color: rgb(142, 233, 142);
+  border-radius: 0.5rem;
+}
+
+#queue-1-duration {
+  --queue-width: 1px;
+  width: var(--queue-width);
+}
+#queue-2-duration {
+  --queue-width: 1px;
+  width: var(--queue-width);
+}
+#queue-3-duration {
+  --queue-width: 1px;
+  width: var(--queue-width);
+}
+#queue-4-duration {
+  --queue-width: 1px;
+  width: var(--queue-width);
+}
+
+.button {
+  background-color: rgb(158, 158, 255);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 2px;
+  transition: all;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
